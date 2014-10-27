@@ -21,13 +21,13 @@ body
     background-repeat: no-repeat;
     background-position: 0px 20px;
     width: 600px;
-    height: 280px;
+    height: 260px;
     text-indent: 440px;
     background-color: gray;
     margin: auto;
     margin-top: 20px;
     color: white;
-    font-style: italic;
+    font-style: inherit;
 }
 #menu
 {
@@ -35,10 +35,7 @@ body
     top: 260px;
     list-style-type: none;
 }
-#menu a
-{
-    font-size: 10px;
-}
+
 ul
 {
     
@@ -47,14 +44,26 @@ ul
 {
     list-style-type: none;
     color: black;
-    border-style: solid;
+
     float: left;
-    padding: 8px;
     margin-left: 1px;
+    
 }
 #menu ul li a
 {
+    background-color: yellow;
+    padding: 7px;
     display: block;
+}
+a
+{
+    display: none;
+    text-decoration: none;
+    color: red;
+}
+a:first-letter
+{
+    text-transform: uppercase;
 }
 #content
 {}
