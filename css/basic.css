@@ -1,1 +1,37 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+body
+{
+    background-color: lightgray;
+    padding: 20px;
+}
+#container
+{
+    width: 1000px;
+    height: 1000px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    background-color: white;
+    margin: 0 auto;
+}
+#topbar
+{
+    width: 93%;
+    height: 350px;
+    background-color: gray;
+    margin: auto;
+    margin-top: 20px;
+}
+#menu
+{
+    
+}
+#content
+{}
+#maincontent
+{}
+#subcontent
+{}
+#bottomcontent
+{}
