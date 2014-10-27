@@ -7,7 +7,7 @@ body
 }
 #container
 {
-    width: 1000px;
+    width: 650px;
     height: 1000px;
     border-style: solid;
     border-width: 1px;
@@ -18,18 +18,43 @@ body
 #topbar
 {
     background-image: url(pics/coffey.jpg);
-    width: 93%;
-    height: 350px;
+    background-repeat: no-repeat;
+    background-position: 0px 20px;
+    width: 600px;
+    height: 280px;
+    text-indent: 440px;
     background-color: gray;
     margin: auto;
     margin-top: 20px;
     color: white;
     font-style: italic;
-    
 }
 #menu
 {
+    position: absolute;
+    top: 260px;
+    list-style-type: none;
+}
+#menu a
+{
+    font-size: 10px;
+}
+ul
+{
     
+}
+#menu ul li
+{
+    list-style-type: none;
+    color: black;
+    border-style: solid;
+    float: left;
+    padding: 8px;
+    margin-left: 1px;
+}
+#menu ul li a
+{
+    display: block;
 }
 #content
 {}
