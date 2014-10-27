@@ -17,11 +17,15 @@ body
 }
 #topbar
 {
+    background-image: url(pics/coffey.jpg);
     width: 93%;
     height: 350px;
     background-color: gray;
     margin: auto;
     margin-top: 20px;
+    color: white;
+    font-style: italic;
+    
 }
 #menu
 {
